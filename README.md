@@ -1,2 +1,0 @@
-# gridmap-manager
-
