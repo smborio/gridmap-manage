@@ -1,14 +1,20 @@
-# GridmapManager
+# GridMap Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+## Technologies Used
+
+This project uses the following technologies:
+
+- [Angular](https://angular.io/): A platform for building web applications.
+- [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
+- [SCSS](https://sass-lang.com/): A preprocessor scripting language that is interpreted or compiled into CSS.
+- [Karma](https://karma-runner.github.io): A test runner for JavaScript.
+- [Protractor](http://www.protractortest.org/): An end-to-end test framework for Angular and AngularJS applications.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
