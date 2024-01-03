@@ -1,2 +1,2 @@
-# gridmap-manage
+# gridmap-manager
 
