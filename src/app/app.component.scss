@@ -3,6 +3,7 @@
         Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
         "Segoe UI Symbol";
     box-sizing: border-box;
+    background-color: lightblue;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -25,3 +26,10 @@ main {
     max-width: 700px;
     margin-bottom: 3rem;
 }
+
+// Grid border and background color
+.grid-style {
+    border: 2px solid black; /* Adjust as needed */
+    border-radius: 10px; /* Adjust as needed */
+    background-color: #F4A460; /* SandyBrown color, adjust as needed */
+  }

@@ -11,4 +11,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'gridmap-manager';
+  gridWidth = 500;  // Set your desired width here
+  gridHeight = 750; // Set your desired height here
 }
