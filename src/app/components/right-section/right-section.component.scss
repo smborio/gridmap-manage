@@ -4,3 +4,25 @@
     align-items: center;
     height: 100%;
 }
+
+.order-list {
+    background-color: white;
+    width: 100%;
+}
+
+.svg-button {
+    fill: #007bff;
+    stroke: #007bff;
+    stroke-width: 1;
+    transition: fill 0.15s ease-in-out;
+}
+
+.svg-button:hover {
+    fill: #0056b3;
+}
+
+.svg-text {
+    fill: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
