@@ -1,3 +1,6 @@
-<div class="container">
-    <h3>Right Section</h3>
-</div>
+<div cdkDropList (cdkDropListDropped)="drop($event)">
+    <div *ngFor="let item of items; index as i" cdkDrag>
+      <button class="btn btn-primary">{{item}}</button>
+      <span>{{i + 1}}</span>
+    </div>
+  </div>

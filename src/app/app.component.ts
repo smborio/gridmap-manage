@@ -4,12 +4,18 @@ import { RouterOutlet } from '@angular/router';
 import { TopSectionComponent } from './components/top-section/top-section.component';
 import { LeftSectionComponent } from './components/left-section/left-section.component';
 import { RightSectionComponent } from './components/right-section/right-section.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, TopSectionComponent, LeftSectionComponent, RightSectionComponent],
+  imports: [CommonModule,
+    DragDropModule,
+    RouterOutlet, 
+    TopSectionComponent, 
+    LeftSectionComponent, 
+    RightSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
