@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class DmModeService {
-  private dmMode = new BehaviorSubject<boolean>(true);
+  private dmMode = new BehaviorSubject<boolean>(false);
 
   getDmMode() {
     return this.dmMode.asObservable();
